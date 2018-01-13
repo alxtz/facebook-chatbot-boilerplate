@@ -1,0 +1,21 @@
+{
+  "name": "v-taiwan-chat-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "ngrok": "ngrok http 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "ngrok": "^2.2.24",
+    "nodemon": "^1.14.11",
+    "request": "^2.83.0"
+  }
+}
